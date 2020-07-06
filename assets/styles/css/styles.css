@@ -197,6 +197,34 @@
           justify-content: space-between;
 }
 
+.text-white {
+  color: #fff;
+}
+
+.text-red {
+  color: #ff585b;
+}
+
+.text-black {
+  color: #000;
+}
+
+.text-1 {
+  font-size: 1rem;
+}
+
+.text-medium {
+  font-size: 1.5rem;
+}
+
+.text-2 {
+  font-size: 2rem;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
