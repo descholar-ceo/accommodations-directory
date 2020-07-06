@@ -31,30 +31,39 @@ $spaceAmount: (1,2,3,4,5);
 .width-10 {
   width: 10%;
 }
+
 .width-20 {
   width: 20%;
 }
+
 .width-30 {
   width: 30%;
 }
+
 .width-40 {
   width: 40%;
 }
+
 .width-50 {
   width: 50%;
 }
+
 .width-60 {
   width: 60%;
 }
+
 .width-70 {
   width: 70%;
 }
+
 .width-80 {
   width: 80%;
 }
+
 .width-90 {
   width: 90%;
 }
+
 .width-100 {
   width: 100%;
 }
@@ -77,4 +86,3 @@ $spaceAmount: (1,2,3,4,5);
 .flex-space-between {
   @include flex-specs(row, space-between);
 }
-
