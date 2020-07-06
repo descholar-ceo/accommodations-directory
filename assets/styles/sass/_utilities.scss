@@ -1,6 +1,7 @@
-$spaceamount: (1,2,3,4,5);
+// margins and paddings
+$spaceAmount: (1,2,3,4,5);
 
-@each $space in $spaceamount {
+@each $space in $spaceAmount {
   .margin-#{$space} {
     margin: #{$space}rem;
   }
@@ -25,3 +26,55 @@ $spaceamount: (1,2,3,4,5);
     padding: #{$space}rem 0;
   }
 }
+
+// widths and heights
+.width-10 {
+  width: 10%;
+}
+.width-20 {
+  width: 20%;
+}
+.width-30 {
+  width: 30%;
+}
+.width-40 {
+  width: 40%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-60 {
+  width: 60%;
+}
+.width-70 {
+  width: 70%;
+}
+.width-80 {
+  width: 80%;
+}
+.width-90 {
+  width: 90%;
+}
+.width-100 {
+  width: 100%;
+}
+
+// flex
+@mixin flex-specs ($direction, $justify) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+}
+
+.flex-horizontal-center {
+  @include flex-specs(row, center);
+}
+
+.flex-vertical-center {
+  @include flex-specs(column, center);
+}
+
+.flex-space-between {
+  @include flex-specs(row, space-between);
+}
+

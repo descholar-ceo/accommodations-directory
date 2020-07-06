@@ -21,3 +21,9 @@ body {
 header {
   background-color: $primary-color;
 }
+
+nav {
+  li {
+    list-style-type: none;
+  }
+}
