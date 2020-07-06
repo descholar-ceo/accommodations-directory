@@ -1,3 +1,123 @@
+.margin-1 {
+  margin: 1rem;
+}
+
+.margin-x-1 {
+  margin: 0 1rem;
+}
+
+.margin-y-1 {
+  margin: 1rem 0;
+}
+
+.padding-1 {
+  padding: 1rem;
+}
+
+.padding-x-1 {
+  padding: 0 1rem;
+}
+
+.padding-y-1 {
+  padding: 1rem 0;
+}
+
+.margin-2 {
+  margin: 2rem;
+}
+
+.margin-x-2 {
+  margin: 0 2rem;
+}
+
+.margin-y-2 {
+  margin: 2rem 0;
+}
+
+.padding-2 {
+  padding: 2rem;
+}
+
+.padding-x-2 {
+  padding: 0 2rem;
+}
+
+.padding-y-2 {
+  padding: 2rem 0;
+}
+
+.margin-3 {
+  margin: 3rem;
+}
+
+.margin-x-3 {
+  margin: 0 3rem;
+}
+
+.margin-y-3 {
+  margin: 3rem 0;
+}
+
+.padding-3 {
+  padding: 3rem;
+}
+
+.padding-x-3 {
+  padding: 0 3rem;
+}
+
+.padding-y-3 {
+  padding: 3rem 0;
+}
+
+.margin-4 {
+  margin: 4rem;
+}
+
+.margin-x-4 {
+  margin: 0 4rem;
+}
+
+.margin-y-4 {
+  margin: 4rem 0;
+}
+
+.padding-4 {
+  padding: 4rem;
+}
+
+.padding-x-4 {
+  padding: 0 4rem;
+}
+
+.padding-y-4 {
+  padding: 4rem 0;
+}
+
+.margin-5 {
+  margin: 5rem;
+}
+
+.margin-x-5 {
+  margin: 0 5rem;
+}
+
+.margin-y-5 {
+  margin: 5rem 0;
+}
+
+.padding-5 {
+  padding: 5rem;
+}
+
+.padding-x-5 {
+  padding: 0 5rem;
+}
+
+.padding-y-5 {
+  padding: 5rem 0;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
