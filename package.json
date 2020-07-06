@@ -1,0 +1,20 @@
+{
+  "name": "accommodations-directory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/descholar-ceo/accommodations-directory",
+  "author": "descholar-ceo <emmanuellamugi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "scripts": {
+    "stylelint": "npx stylelint **/*.{css,scss}",
+    "stylelint-fix": "npx stylelint **/*.{css,scss} --fix",
+    "hint": "npx hint ."
+  },
+  "devDependencies": {
+    "hint": "^6.0.6",
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.18.0"
+  }
+}
