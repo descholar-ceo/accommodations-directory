@@ -1,27 +1,27 @@
 $spaceamount: (1,2,3,4,5);
 
 @each $space in $spaceamount {
-    .margin-#{$space}{
-        margin: #{$space}rem;
-    }
+  .margin-#{$space} {
+    margin: #{$space}rem;
+  }
 
-    .margin-x-#{$space}{
-        margin: 0 #{$space}rem;
-    }
+  .margin-x-#{$space} {
+    margin: 0 #{$space}rem;
+  }
 
-    .margin-y-#{$space}{
-        margin: #{$space}rem 0;
-    }
+  .margin-y-#{$space} {
+    margin: #{$space}rem 0;
+  }
 
-    .padding-#{$space}{
-        padding: #{$space}rem;
-    }
+  .padding-#{$space} {
+    padding: #{$space}rem;
+  }
 
-    .padding-x-#{$space}{
-        padding: 0 #{$space}rem;
-    }
+  .padding-x-#{$space} {
+    padding: 0 #{$space}rem;
+  }
 
-    .padding-y-#{$space}{
-        padding: #{$space}rem 0;
-    }
+  .padding-y-#{$space} {
+    padding: #{$space}rem 0;
+  }
 }
