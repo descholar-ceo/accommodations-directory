@@ -49,17 +49,17 @@
   }
 
   footer {
-
     .footer-logo-container {
       display: none;
-  }
-  .hidden-element {
-    display: inline-block;
-  }
+    }
 
-  .before-footer {
-    width: 60%;
-  }
+    .hidden-element {
+      display: inline-block;
+    }
+
+    .before-footer {
+      width: 60%;
+    }
   }
 
   .more-links {
@@ -67,7 +67,7 @@
     align-items: center;
 
     li {
-      padding:0 5px;
+      padding: 0 5px;
       font-size: 0.9rem;
     }
   }
