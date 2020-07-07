@@ -2,6 +2,25 @@
   .flex-md-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+  }
+
+  .text-1 {
+    font-size: 1.5rem;
+  }
+
+  .search-section {
+    div {
+      width: 60%;
+    }
+
+    input {
+      width: 80%;
+      height: 50px;
+    }
+
+    a {
+      width: 20%;
+      height: 50px;
+    }
   }
 }
