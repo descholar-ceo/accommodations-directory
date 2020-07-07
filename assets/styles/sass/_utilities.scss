@@ -47,6 +47,10 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
   @include flex-specs(row, space-between);
 }
 
+.flex-right {
+  @include flex-specs(row, flex-end)
+}
+
 .centered-horizontal {
   margin: 0 auto;
 }
@@ -64,7 +68,6 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 %button {
   display: inline-block;
   border: none;
-  border-radius: 0.5rem;
   margin: 0.2rem;
   outline: none;
   padding: 0.5rem;
@@ -110,13 +113,24 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
   background-color: $third-transparent;
 }
 
+.border-top-bottom-third {
+  border-top: 1px solid $third-color;
+  border-bottom: 1px solid $third-color;
+}
+
+.border-full {
+  border: 1px solid $third-color;
+}
+
 .rounded-corners-1 {
   border-radius: 1rem;
 }
 
-.border-top-bottom-third {
-  border-top: 1px solid $third-color;
-  border-bottom: 1px solid $third-color;
+.border-radius-3,
+button,
+input,
+select {
+  border-radius: 3px;
 }
 
 .cursor-pointer {
