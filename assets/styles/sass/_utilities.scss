@@ -56,6 +56,10 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
   place-items: center;
 }
 
+.relative-element {
+  position: relative;
+}
+
 // buttons
 %button {
   display: inline-block;
@@ -81,7 +85,6 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-third {
   @extend %button;
-
   background-color: $third-color;
 }
 
@@ -92,6 +95,10 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .third-bg {
   background-color: $third-color;
+}
+
+.primary-transparent-bg {
+  background-color: $primary-transparent;
 }
 
 .secondary-transparent-bg {

@@ -38,6 +38,11 @@ img[alt="Accommodation 1"] {
   border-radius: 100rem;
 }
 
+img[alt="accommodation 4"] {
+  width: 300px;
+  height: 300px;
+}
+
 .search-section {
   background: linear-gradient(to bottom right, $primary-transparent, $secondary-transparent, $black-transparent, $third-transparent), url("../../img/accommodation-0.svg") center center no-repeat;
   background-size: cover;
@@ -54,5 +59,18 @@ select {
 
 .subscribe-container {
   border: 1px solid $third-color;
-  margin: 0 auto;
+}
+
+.result-section {
+  div{
+    height: fit-content;
+  }
+
+  p {
+    position: absolute;
+    top: 8rem;
+    left: 3rem;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+  }
 }

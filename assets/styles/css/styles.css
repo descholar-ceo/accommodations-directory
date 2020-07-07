@@ -1,25 +1,25 @@
 .margin-0 {
-  margin: 0;
+  margin: 0rem;
 }
 
 .margin-x-0 {
-  margin: 0 0;
+  margin: 0 0rem;
 }
 
 .margin-y-0 {
-  margin: 0 0;
+  margin: 0rem 0;
 }
 
 .padding-0 {
-  padding: 0;
+  padding: 0rem;
 }
 
 .padding-x-0 {
-  padding: 0 0;
+  padding: 0 0rem;
 }
 
 .padding-y-0 {
-  padding: 0 0;
+  padding: 0rem 0;
 }
 
 .margin-1 {
@@ -148,14 +148,14 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flex-vertical-center {
@@ -164,14 +164,14 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flex-space-between {
@@ -180,14 +180,14 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: space-between;
-  -ms-flex-align: space-between;
-  align-items: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
 }
 
 .centered-horizontal {
@@ -200,9 +200,11 @@
   place-items: center;
 }
 
-.button-primary,
-.button-secondry,
-.button-third {
+.relative-element {
+  position: relative;
+}
+
+.button-primary, .button-secondry, .button-third {
   display: inline-block;
   border: none;
   border-radius: 0.5rem;
@@ -230,6 +232,10 @@
 
 .third-bg {
   background-color: #484848;
+}
+
+.primary-transparent-bg {
+  background-color: #00a79967;
 }
 
 .secondary-transparent-bg {
@@ -379,7 +385,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-family: sans-serif;
   padding: 0;
   margin: 0;
@@ -413,6 +419,11 @@ img[alt="Accommodation 1"] {
   border-radius: 100rem;
 }
 
+img[alt="accommodation 4"] {
+  width: 300px;
+  height: 300px;
+}
+
 .search-section {
   background: -webkit-gradient(linear, left top, right bottom, from(#00a79967), color-stop(#ff585b8f), color-stop(#00000085), to(#4848487e)), url("../../img/accommodation-0.svg") center center no-repeat;
   background: linear-gradient(to bottom right, #00a79967, #ff585b8f, #00000085, #4848487e), url("../../img/accommodation-0.svg") center center no-repeat;
@@ -430,5 +441,18 @@ select {
 
 .subscribe-container {
   border: 1px solid #484848;
-  margin: 0 auto;
+}
+
+.result-section div {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.result-section p {
+  position: absolute;
+  top: 8rem;
+  left: 3rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
 }
