@@ -1,7 +1,4 @@
 @import 'variables';
-@import 'utilities';
-@import 'texts';
-@import 'widths-heights';
 
 * {
   box-sizing: border-box;
@@ -68,3 +65,8 @@ select {
     padding: 0.3rem;
   }
 }
+
+@import 'utilities';
+@import 'texts';
+@import 'widths-heights';
+@import 'media-queries'
