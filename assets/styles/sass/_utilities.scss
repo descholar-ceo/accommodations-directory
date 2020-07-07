@@ -48,7 +48,8 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 }
 
 .flex-right {
-  @include flex-specs(row, flex-end); }
+  @include flex-specs(row, flex-end);
+}
 
 .centered-horizontal {
   margin: 0 auto;
