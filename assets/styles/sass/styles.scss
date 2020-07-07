@@ -1,6 +1,7 @@
 @import 'variables';
 @import 'utilities';
 @import 'texts';
+@import 'widths-heights';
 
 * {
   box-sizing: border-box;
@@ -10,8 +11,6 @@
 }
 
 body {
-  height: 100%;
-  width: 100%;
   overflow-x: hidden;
 }
 
@@ -27,4 +26,10 @@ nav {
   li {
     list-style-type: none;
   }
+}
+
+.main-page {
+  background: url("../../img/accommodation-0.svg") center center no-repeat;
+  background-size: cover;
+  height: 100%;
 }
