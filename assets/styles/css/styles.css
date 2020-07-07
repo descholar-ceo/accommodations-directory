@@ -326,6 +326,12 @@ nav li {
   list-style-type: none;
 }
 
+img[alt="Accommodation directory logo"] {
+  width: 100px;
+  height: 100px;
+  border-radius: 100rem;
+}
+
 .main-page {
   background: url("../../img/accommodation-0.svg") center center no-repeat;
   background-size: cover;
