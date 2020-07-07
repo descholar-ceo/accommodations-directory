@@ -545,6 +545,9 @@ select {
   footer .hidden-element {
     display: inline-block;
   }
+  footer .before-footer {
+    width: 60%;
+  }
   .more-links {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
