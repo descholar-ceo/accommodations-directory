@@ -10,18 +10,20 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
 body {
   overflow-x: hidden;
 }
 
 header {
   background-color: $primary-color;
-}
-
-nav {
-  li {
-    list-style-type: none;
-  }
 }
 
 img[alt="Accommodation directory logo"] {
@@ -46,5 +48,21 @@ img[alt="Accommodation 1"] {
     padding: 0.5rem;
     outline: none;
     border: none;
+  }
+}
+
+.subscrib-econtainer {
+  border: 1px solid $third-color;
+  margin: 0 auto;
+
+  input {
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    width: 100%;
+
+    &::placeholder {
+      color: $third-color;
+    }
   }
 }
