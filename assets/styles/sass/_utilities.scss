@@ -69,16 +69,19 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-primary {
   @extend %button;
+
   background-color: $primary-color;
 }
 
 .button-seconadry {
   @extend %button;
+
   background-color: $secondary-color;
 }
 
 .button-third {
   @extend %button;
+
   background-color: $third-color;
 }
 
