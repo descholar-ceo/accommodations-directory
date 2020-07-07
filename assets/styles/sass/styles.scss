@@ -14,10 +14,6 @@ body {
   overflow-x: hidden;
 }
 
-.fa {
-  color: $white-color;
-}
-
 header {
   background-color: $primary-color;
 }
@@ -29,13 +25,20 @@ nav {
 }
 
 img[alt="Accommodation directory logo"] {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 100rem;
 }
 
-.main-page {
-  background: url("../../img/accommodation-0.svg") center center no-repeat;
+.search-section {
+  background: linear-gradient(to bottom right, $primary-transparent, $secondary-transparent, $black-transparent, $third-transparent), url("../../img/accommodation-0.svg") center center no-repeat;
   background-size: cover;
   height: 100%;
+
+  input {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+  }
 }

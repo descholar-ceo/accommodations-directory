@@ -1,14 +1,18 @@
 // text colors
-.text-white {
+.black-text {
+  color: $black-color;
+}
+
+.white-text {
   color: $white-color;
 }
 
-.text-red {
+.red-text {
   color: $secondary-color;
 }
 
-.text-black {
-  color: $black-color;
+.green-text {
+  color: $primary-color;
 }
 
 // font sizes
@@ -24,6 +28,10 @@
   font-size: 2rem;
 }
 
-.text-bold {
+.bold-text {
   font-weight: 700;
+}
+
+.centered-text {
+  text-align: center;
 }

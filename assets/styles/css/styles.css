@@ -1,25 +1,25 @@
 .margin-0 {
-  margin: 0;
+  margin: 0rem;
 }
 
 .margin-x-0 {
-  margin: 0 0;
+  margin: 0 0rem;
 }
 
 .margin-y-0 {
-  margin: 0 0;
+  margin: 0rem 0;
 }
 
 .padding-0 {
-  padding: 0;
+  padding: 0rem;
 }
 
 .padding-x-0 {
-  padding: 0 0;
+  padding: 0 0rem;
 }
 
 .padding-y-0 {
-  padding: 0 0;
+  padding: 0rem 0;
 }
 
 .margin-1 {
@@ -148,14 +148,14 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flex-vertical-center {
@@ -164,14 +164,14 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .flex-space-between {
@@ -180,30 +180,74 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: space-between;
-  -ms-flex-align: space-between;
-  align-items: space-between;
+      -ms-flex-align: space-between;
+          align-items: space-between;
 }
 
-.cenetered-element {
+.centered-horizontal {
   margin: 0 auto;
 }
 
-.text-white {
+.centered-h-v {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.button-primary, .button-seconadry, .button-third {
+  display: inline-block;
+  border: none;
+  border-radius: 0.5rem;
+  margin: 0.2rem;
+  text-decoration: none;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.button-primary {
+  background-color: #00a799;
+}
+
+.button-seconadry {
+  background-color: #ff585b;
+}
+
+.button-third {
+  background-color: #484848;
+}
+
+.secondary-transparent-bg {
+  background-color: #ff585b8f;
+}
+
+.third-transparent-bg {
+  background-color: #4848487e;
+}
+
+.rounded-corners-1 {
+  border-radius: 1rem;
+}
+
+.black-text {
+  color: #000000;
+}
+
+.white-text {
   color: #fff;
 }
 
-.text-red {
+.red-text {
   color: #ff585b;
 }
 
-.text-black {
-  color: #000;
+.green-text {
+  color: #00a799;
 }
 
 .text-1 {
@@ -218,8 +262,12 @@
   font-size: 2rem;
 }
 
-.text-bold {
+.bold-text {
   font-weight: 700;
+}
+
+.centered-text {
+  text-align: center;
 }
 
 .width-10 {
@@ -304,7 +352,7 @@
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-family: sans-serif;
   padding: 0;
   margin: 0;
@@ -312,10 +360,6 @@
 
 body {
   overflow-x: hidden;
-}
-
-.fa {
-  color: #fff;
 }
 
 header {
@@ -327,13 +371,21 @@ nav li {
 }
 
 img[alt="Accommodation directory logo"] {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 100rem;
 }
 
-.main-page {
-  background: url("../../img/accommodation-0.svg") center center no-repeat;
+.search-section {
+  background: -webkit-gradient(linear, left top, right bottom, from(#00a79967), color-stop(#ff585b8f), color-stop(#00000085), to(#4848487e)), url("../../img/accommodation-0.svg") center center no-repeat;
+  background: linear-gradient(to bottom right, #00a79967, #ff585b8f, #00000085, #4848487e), url("../../img/accommodation-0.svg") center center no-repeat;
   background-size: cover;
   height: 100%;
+}
+
+.search-section input {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
 }

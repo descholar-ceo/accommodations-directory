@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/styles/css/styles.css">
     <title>Accommodation directory</title>
@@ -15,91 +15,95 @@
                 <img src="./assets/img/accommodation-logo.png" alt="Accommodation directory logo">
             </div>
         </nav>
-        <nav class="margin-y-1 flex-horizontal-center">
-            <ul class="flex-space-between width-40">
+        <nav class="margin-y-1 centered-h-v">
+            <ul class="flex-space-between width-40 m-0">
                 <li>
                     <a href="#">
-                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <i class="fa white-text fa-search" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-user-o" aria-hidden="true"></i>
+                        <i class="fa white-text fa-user-o" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-rss" aria-hidden="true"></i>
+                        <i class="fa white-text fa-rss" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        <i class="fa white-text fa-bars" aria-hidden="true"></i>
                     </a>
                 </li>
             </ul>
         </nav>
     </header>
     <main class="main-page width-100 height-100">
-        <section class="search-section width-80 m-0">
-            <h1>AccommodationDirectory find your pleasant home</h1>
-            <div>
-                <h2>Search by keyword</h2>
-                <form>
-                    <div>
-                        <input type="text">
+        <section class="search-section width-100 m-0 padding-y-4 centered-h-v white-text">
+            <h2 class="centered-text margin-y-1">Find your desired place to sleep here!!!</h2>
+            <div class="margin-y-1 width-90 centered-h-v third-transparent-bg padding-1 rounded-corners-1">
+                <h3>Search by keyword</h3>
+                <form class="centered-h-v width-100">
+                    <div class="width-100 margin-y-1">
+                        <input type="text" class="width-100">
                     </div>
-                    <div>
-                        <button type="button">Search</button>
+                    <div class="width-100">
+                        <a class="button-third width-100 centered-text white-text bold-text" href="#">Search</a>
                     </div>
                 </form>
             </div>
-            <button type="button">How it works</button>
+            <button type="button" class="margin-y-1 button-seconadry white-text bold-text">How it works</button>
         </section>
-        <section>
-            <h1>With a lot of amenities</h1>
-            <div>
+        <section class="centered-h-v margin-y-2">
+            <h1 class="centered-text">With a lot of amenities</h1>
+            <div class="centered-h-v width-60 width-60 margin-y-1">
                 <img src="./assets/img/air-conditionals.png" alt="air conditionals">
-                <p>
+                <h3>Air conditioner</h3>
+                <p class="centered-text">
                     You can find any accommodation which have rooms with air condionals
                 </p>
             </div>
-            <div>
+            <div class="centered-h-v width-60 margin-y-1">
                 <img src="./assets/img/network.png" alt="air conditionals">
-                <p>
+                <h3>Internet connectivity</h3>
+                <p class="centered-text">
                     All accommodations here will provide internet connections
                 </p>
             </div>
-            <div>
+            <div class="centered-h-v width-60 margin-y-1">
                 <img src="./assets/img/swimming-pool.png" alt="air conditionals">
-                <p>
+                <h3>Swimming pool</h3>
+                <p class="centered-text">
                     You can get free swimming pool while you are stying in accommodation
                 </p>
             </div>
-            <div>
+            <div class="centered-h-v width-60 margin-y-1">
                 <img src="./assets/img/parking.png" alt="air conditionals">
-                <p>
+                <h3>Parking</h3>
+                <p class="centered-text">
                     Don't be bothered with your vehicle, any accommodation you get will give you where to park your vehicle
                 </p>
             </div>
         </section>
         <section class="more-accommodation-section">
-            <div>
+            <div class="centered-h-v width-60">
                 <img class="height-50 width-50" src="./assets/img/accommodation-1.jpg" alt="Accommodation 1" />
                 <h3>Millions of accommodations are registered with us</h3>
-                <p>You can get any accommodation, for any price, and for any requirement by just typing a keyword</p>
+                <p class="centered-text">You can get any accommodation, for any price, and for any requirement by just typing a keyword</p>
                 <button type="button">Find accommodation</button>
             </div>
-            <div>
+            <div class="centered-h-v width-60">
                 <img class="height-50 width-50" src="./assets/img/accommodation-2.jpg" alt="Accommodation 1" />
                 <h3>All the accommodations have grea dinning rooms</h3>
-                <p>If you are a family, or have some guests, try to find the best accommodation suits your needs</p>
+                <p class="centered-text">If you are a family, or have some guests, try to find the best accommodation suits your needs</p>
                 <button type="button">Get it here</button>
             </div>
-            <div>
+            <div class="centered-h-v width-60">
                 <img class="height-50 width-50" src="./assets/img/accommodation-3.jpg" alt="Accommodation 1" />
                 <h3>Don't need of missing where to sleep tonight</h3>
-                <p>Click the button below and get all accommodations which are near to you, it's simple</p>
+                <p class="centered-text">Click the button below and get all accommodations which are near to you, it's simple</p>
                 <button type="button">Locate all</button>
             </div>
         </section>
