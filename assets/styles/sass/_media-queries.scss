@@ -47,4 +47,24 @@
       text-align: left;
     }
   }
+
+  footer {
+
+    .footer-logo-container {
+      display: none;
+  }
+  .hidden-element {
+    display: inline-block;
+  }
+  }
+
+  .more-links {
+    justify-content: center;
+    align-items: center;
+
+    li {
+      padding:0 5px;
+      font-size: 0.9rem;
+    }
+  }
 }
