@@ -19,7 +19,7 @@
     }
 
     a {
-      width: 20%;
+      width: fit-content;
       height: 50px;
     }
   }
@@ -31,11 +31,20 @@
     row-gap: 1rem;
 
     p {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
     h3 {
-      font-size: 2rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  .more-accommodation {
+    display: flex;
+    flex-direction: row-reverse;
+
+    div {
+      text-align: left;
     }
   }
 }
