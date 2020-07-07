@@ -267,6 +267,10 @@
   color: #00a799;
 }
 
+.grey-text {
+  color: #484848;
+}
+
 .small-text {
   font-size: 0.5rem;
 }
@@ -277,6 +281,10 @@
 
 .text-1 {
   font-size: 1rem;
+}
+
+.text-1-half {
+  font-size: 1.5rem;
 }
 
 .bold-text {
@@ -410,7 +418,7 @@ img[alt="Accommodation 1"] {
   height: 100%;
 }
 
-.search-section input {
+input {
   border-radius: 0.5rem;
   padding: 0.5rem;
   outline: none;
@@ -420,27 +428,4 @@ img[alt="Accommodation 1"] {
 .subscribe-container {
   border: 1px solid #484848;
   margin: 0 auto;
-}
-
-.subscribe-container input {
-  border: none;
-  outline: none;
-  padding: 0.5rem;
-  width: 100%;
-}
-
-.subscribe-container input::-webkit-input-placeholder {
-  color: #484848;
-}
-
-.subscribe-container input:-ms-input-placeholder {
-  color: #484848;
-}
-
-.subscribe-container input::-ms-input-placeholder {
-  color: #484848;
-}
-
-.subscribe-container input::placeholder {
-  color: #484848;
 }

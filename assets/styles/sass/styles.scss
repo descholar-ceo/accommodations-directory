@@ -42,27 +42,16 @@ img[alt="Accommodation 1"] {
   background: linear-gradient(to bottom right, $primary-transparent, $secondary-transparent, $black-transparent, $third-transparent), url("../../img/accommodation-0.svg") center center no-repeat;
   background-size: cover;
   height: 100%;
+}
 
-  input {
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    outline: none;
-    border: none;
-  }
+input {
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
 }
 
 .subscribe-container {
   border: 1px solid $third-color;
   margin: 0 auto;
-
-  input {
-    border: none;
-    outline: none;
-    padding: 0.5rem;
-    width: 100%;
-
-    &::placeholder {
-      color: $third-color;
-    }
-  }
 }

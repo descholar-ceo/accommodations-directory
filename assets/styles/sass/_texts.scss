@@ -15,6 +15,10 @@
   color: $primary-color;
 }
 
+.grey-text {
+  color: $third-color;
+}
+
 // font sizes
 .small-text {
   font-size: 0.5rem;
@@ -26,6 +30,10 @@
 
 .text-1 {
   font-size: 1rem;
+}
+
+.text-1-half {
+  font-size: 1.5rem;
 }
 
 .bold-text {

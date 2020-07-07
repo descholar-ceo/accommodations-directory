@@ -3,10 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/styles/css/styles.css">
-    <title>Accommodation details</title>
+    <title>Accommodation directory</title>
 </head>
-<body>
-    <h1>Hello, this is the details to your accommodation</h1>
+<body class="height-100 width-100">
+    <header class="padding-y-1">
+        <nav class="margin-y-1 flex-horizontal-center nav-1">
+            <div>
+                <img src="../assets/img/accommodation-logo.png" alt="Accommodation directory logo">
+            </div>
+        </nav>
+        <nav class="margin-y-1 centered-h-v">
+            <ul class="flex-space-between width-40 m-0">
+                <li>
+                    <a href="#">
+                        <i class="fa white-text fa-search" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa white-text fa-user-o" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa white-text fa-rss" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa white-text fa-bars" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-page width-100 height-100">
+        <section class="third-transparent-bg filter-section width-100 m-0 padding-y-4 centered-h-vt">
+            <h2 class="centered-text margin-y-1 grey-text text-1">
+                Filter results by name, city, ratings:
+            </h2>
+            <div class="margin-y-1 width-90 centered-h-v padding-1 rounded-corners-1">
+                <form class="centered-h-v width-60">
+                    <div class="width-100">
+                        <label for="accommodation-name">Accommodation name:</label>
+                        <input type="text" class="width-100" id="accommodation-name">
+                    </div>
+                    <div class="width-100 margin-y-1">
+                        <label for="city">City:</label>
+                        <input type="text" class="width-100" id="city">
+                    </div>
+                    <div class="width-100">
+                        <label for="ratings">Ratings:</label>
+                        <input type="text" class="width-100" id="ratings">
+                    </div>
+                    <div class="width-100 margin-y-1">
+                        <a class="button-third width-100 centered-text white-text bold-text" href="#">Search</a>
+                    </div>
+                    <div class="width-100">
+                        <a class="button-third width-100 centered-text white-text bold-text" href="#">Clear filter</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="width-100 centered-h-v black-bg white-text">
+        <section class="centered-text text-decoration-none width-80 margin-y-1">
+            <a href="#"><img src="../assets/img/accommodation-logo.png" alt="Accommodation directory logo"></a>
+            <div class="border-top-bottom-third padding-y-1 margin-y-1">
+                <ul>
+                    <li class="margin-y-1"><a class="white-text" href="#">HOME</a></li>
+                    <li class="margin-y-1"><a class="white-text" href="#">SEARCH</a></li>
+                    <li class="margin-y-1"><a class="white-text" href="#">ABOUT US</a></li>
+                    <li class="margin-y-1"><a class="white-text" href="#">ADVERTISE</a></li>
+                    <li class="margin-y-1"><a class="white-text" href="#">FACEBOOK</a></li>
+                    <li class="margin-y-1"><a class="white-text" href="#">TWITTER</a></li>
+                    <li class="margin-y-1"><a class="white-text" href="#">BLOG</a></li>
+                    <li class="margin-y-1"><a class="white-text" href="#">GOOGLE +</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li class="margin-y-1">
+                        <h3>SUBSCRIBE</h3>
+                        <form>
+                            <div class="subscribe-container width-80 flex-space-between">
+                                <input class="height-100 black-bg white-text" type="text" placeholder="username@accommodations.net">
+                                <span class="third-bg cursor-pointer centered-h-v padding-x-1">Send</span>
+                            </div>
+                        </form>
+                    </li>
+                    <li class="margin-y-1">
+                        <h3>CONTACT</h3>
+                        <div>
+                            <p>
+                                Any question? Any suggestion? Any feedback?
+                                Do not hesitate to send us email on
+                                <a class="green-text" href="mailto:help@accommodations.net">help@accommodations.net</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li class="margin-y-1">
+                        <h3>ABOUT</h3>
+                        <p>
+                            AccommodationDirectory is here to help you find the best accommodation suits your requirements just near you,...
+                            <a class="green-text" href="#">click here to learn more</a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <div class="width-100 centered-h-v third-bg padding-1 centered-text">
+            <ul class="flex-space-between width-40 m-0">
+                <li>
+                    <a href="#">
+                        <i class="fa white-text fa-facebook" aria-hidden="true"></i>             
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa white-text fa-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa white-text fa-youtube" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa white-text fa-instagram" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa white-text fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="small-text margin-y-1">
+                <i class="fa fa-copyright" aria-hidden="true"></i> AccommodationDirectory 2020
+                All rights reserved. We would like to stay in touch with you. Your conformt is our priority
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
