@@ -417,30 +417,30 @@ img[alt="Accommodation 1"] {
   border: none;
 }
 
-.subscrib-econtainer {
+.subscribe-container {
   border: 1px solid #484848;
   margin: 0 auto;
 }
 
-.subscrib-econtainer input {
+.subscribe-container input {
   border: none;
   outline: none;
   padding: 0.5rem;
   width: 100%;
 }
 
-.subscrib-econtainer input::-webkit-input-placeholder {
+.subscribe-container input::-webkit-input-placeholder {
   color: #484848;
 }
 
-.subscrib-econtainer input:-ms-input-placeholder {
+.subscribe-container input:-ms-input-placeholder {
   color: #484848;
 }
 
-.subscrib-econtainer input::-ms-input-placeholder {
+.subscribe-container input::-ms-input-placeholder {
   color: #484848;
 }
 
-.subscrib-econtainer input::placeholder {
+.subscribe-container input::placeholder {
   color: #484848;
 }
