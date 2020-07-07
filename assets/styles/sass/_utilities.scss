@@ -65,6 +65,7 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
   text-decoration: none;
   outline: none;
   padding: 0.5rem;
+  cursor: pointer;
 }
 
 .button-primary {
@@ -96,4 +97,9 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .rounded-corners-1 {
   border-radius: 1rem;
+}
+
+// text decoration
+.text-decoration-none {
+  text-decoration: none;
 }
