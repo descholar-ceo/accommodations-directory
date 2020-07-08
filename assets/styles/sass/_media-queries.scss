@@ -1,3 +1,4 @@
+// medium screens
 @media screen and (min-width: 768px) {
   .flex-md-row {
     display: flex;
@@ -123,5 +124,20 @@
 
   .book-accom {
     width: 100%;
+  }
+}
+
+// lage screens
+@media screen and (min-width: 1024px) {
+  .hidden-md-sm {
+    display: inline-block;
+  }
+
+  .padding-lg-half {
+    padding: 0.2rem;
+  }
+
+  .width-lg-90 {
+    width: 90%;
   }
 }

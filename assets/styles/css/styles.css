@@ -380,7 +380,7 @@ select {
   border-radius: 100%;
 }
 
-.hidden-element {
+.hidden-md-sm {
   display: none;
 }
 
@@ -648,5 +648,17 @@ select {
   }
   .book-accom {
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hidden-md-sm {
+    display: inline-block;
+  }
+  .padding-lg-half {
+    padding: 0.2rem;
+  }
+  .width-lg-90 {
+    width: 90%;
   }
 }
