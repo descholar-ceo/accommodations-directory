@@ -48,27 +48,19 @@
     }
   }
 
-  footer {
-    .footer-logo-container {
-      display: none;
-    }
-
-    .hidden-element {
-      display: inline-block;
-    }
-
-    .before-footer {
-      width: 60%;
-    }
+  .before-footer {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    place-items: center;
+    column-gap: 2rem;
+    width: 100%;
   }
 
-  .more-links {
-    justify-content: center;
-    align-items: center;
+  .subscribe-container {
+    width: 100%;
 
-    li {
-      padding: 0 5px;
-      font-size: 0.9rem;
+    span {
+      padding: 0 0.2rem;
     }
   }
 }

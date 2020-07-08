@@ -11,7 +11,7 @@
     <header class="padding-y-1 flex-md-row">
         <nav class="margin-y-1 flex-horizontal-center nav-1 width-100">
             <div class="flex-horizontal-center bold-text">
-                <img src="./assets/img/accommodation-logo.png" alt="Accommodation directory logo">
+                <img class="circle-element" src="./assets/img/accommodation-logo.png" alt="Accommodation directory logo">
                 <span class="text-1"><span class="red-text">Accommodation</span><span class="white-text">Directory</span></span>
             </div>
         </nav>
@@ -90,7 +90,7 @@
         </section>
         <section class="white-text">
                 <div class="more-accommodation secondary-transparent-bg centered-h-v width-100 padding-2 centered-text">
-                    <img src="./assets/img/accommodation-1.jpg" alt="Accommodation 1" />
+                    <img class="circle-element" src="./assets/img/accommodation-1.jpg" alt="Accommodation 1" />
                     <div class="padding-2">
                         <h3 class="margin-y-1">Millions of accommodations are registered with us</h3>
                         <p class="margin-y-1">You can get any accommodation, for any price, and for any requirement by just typing a keyword</p>
@@ -98,7 +98,7 @@
                     </div>
                 </div>
                 <div class="more-accommodation third-transparent-bg centered-h-v width-100 padding-2 centered-text">
-                    <img class="height-50 width-50" src="assets/img/accommodation-2.jpg" alt="Accommodation 1" />
+                    <img class="circle-element" src="assets/img/accommodation-2.jpg" alt="Accommodation 1" />
                     <div class="padding-2">
                         <h3 class="margin-y-1">All the accommodations have grea dinning rooms</h3>
                         <p class="margin-y-1">If you are a family, or have some guests, try to find the best accommodation suits your needs</p>
@@ -106,7 +106,7 @@
                     </div>
                 </div>
                 <div class="more-accommodation primary-transparent-bg centered-h-v width-100 padding-2 centered-text">
-                    <img class="height-50 width-50" src="./assets/img/accommodation-3.jpg" alt="Accommodation 1" />
+                    <img class="circle-element" src="./assets/img/accommodation-3.jpg" alt="Accommodation 1" />
                     <div class="padding-2">
                         <h3 class="margin-y-1">Don't need of missing where to sleep tonight</h3>
                         <p class="margin-y-1">Click the button below and get all accommodations which are near to you, it's simple</p>
@@ -117,32 +117,30 @@
     </main>
     <footer class="width-100 centered-h-v black-bg white-text">
         <section class="centered-text text-decoration-none width-80 margin-y-1">
-            <a href="#" class="footer-logo-container">
-                <img src="./assets/img/accommodation-logo.png" 
-                alt="Accommodation directory logo">
-            </a>
-                <ul class="more-links flex-md-row border-top-bottom-third padding-y-1 margin-y-1">
-                    <li class="margin-y-1"><a class="white-text" href="#">HOME</a></li>
-                    <li class="margin-y-1"><a class="white-text" href="#">SEARCH</a></li>
-                    <li class="margin-y-1"><a class="white-text" href="#">ABOUT US</a></li>
-                    <li class="margin-y-1"><a class="white-text" href="#">ADVERTISE</a></li>
-                    <li class="margin-y-1">
-                        <a href="#">
-                            <img 
-                            src="./assets/img/accommodation-logo.png" 
-                            alt="Accommodation directory logo" class="hidden-element">
-                    </a>
-                    </li>
-                    <li class="margin-y-1"><a class="white-text" href="#">FACEBOOK</a></li>
-                    <li class="margin-y-1"><a class="white-text" href="#">TWITTER</a></li>
-                    <li class="margin-y-1"><a class="white-text" href="#">BLOG</a></li>
-                    <li class="margin-y-1"><a class="white-text" href="#">GOOGLE +</a></li>
-                </ul>
+            <div class="centered-h-v relative-element links-list">
+                <a class="absolute-md border-full padding-1 circle-element black-bg" href="#">
+                    <img 
+                        class="circle-element" 
+                        src="./assets/img/accommodation-logo.png" 
+                        alt="Accommodation directory logo">
+                </a>
+                    <ul class="width-100 more-links border-top-bottom-third padding-y-1 margin-y-1">
+                        <li class="margin-y-1"><a class="white-text" href="#">HOME</a></li>
+                        <li class="margin-y-1"><a class="white-text" href="#">SEARCH</a></li>
+                        <li class="margin-y-1"><a class="white-text" href="#">ABOUT US</a></li>
+                        <li class="margin-y-1"><a class="white-text" href="#">ADVERTISE</a></li>
+                        <li class="margin-y-1"><span></span></li>
+                        <li class="margin-y-1"><a class="white-text" href="#">FACEBOOK</a></li>
+                        <li class="margin-y-1"><a class="white-text" href="#">TWITTER</a></li>
+                        <li class="margin-y-1"><a class="white-text" href="#">BLOG</a></li>
+                        <li class="margin-y-1"><a class="white-text" href="#">GOOGLE +</a></li>
+                    </ul>
+            </div>
                 <ul class="before-footer centered-horizontal">
                     <li class="margin-y-1">
                         <h3>SUBSCRIBE</h3>
                         <form>
-                            <div class="border-full width-80 flex-space-between centered-horizontal">
+                            <div class="subscribe-container border-full width-80 flex-space-between centered-horizontal">
                                 <input class="height-100 width-100 black-bg white-text" type="text" placeholder="username@accommo.net">
                                 <span class="third-bg cursor-pointer centered-h-v padding-x-1">Send</span>
                             </div>

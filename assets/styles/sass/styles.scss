@@ -26,19 +26,14 @@ header {
 img[alt="Accommodation directory logo"] {
   width: 100px;
   height: 100px;
-  border-radius: 100rem;
 }
 
-img[alt="Accommodation 1"] {
-  width: 300px;
-  height: 300px;
-  border-radius: 100rem;
-}
-
+img[alt="Accommodation 1"],
 img[alt="accommodation 4"] {
   width: 300px;
   height: 300px;
 }
+
 
 .search-section {
   background: linear-gradient(to bottom right, $primary-transparent, $secondary-transparent, $black-transparent, $third-transparent), url("../../img/accommodation-0.svg") center center no-repeat;
