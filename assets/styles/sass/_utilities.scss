@@ -76,7 +76,6 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-primary {
   @extend %button;
-
   background-color: $primary-color;
 }
 
@@ -92,13 +91,49 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
   background-color: $third-color;
 }
 
+.button-blue {
+  @extend %button;
+  background-color: $blue-color;
+}
+
+.button-white {
+  @extend %button;
+  background-color: $white-color;
+}
+
+.button-yellow {
+  @extend %button;
+  background-color: $yellow-color;
+}
+
+.button-white-transparent {
+  @extend %button;
+  background-color: $white-trasparent;
+}
+
 // backgrounds
 .black-bg {
   background-color: $black-color;
 }
 
+.primary-bg {
+  background-color: $primary-color;
+}
+
 .third-bg {
   background-color: $third-color;
+}
+
+.blue-bg {
+  background-color: $blue-color;
+}
+
+.white-bg {
+  background-color: $white-color;
+}
+
+.white-transparent-bg {
+  background-color: $white-trasparent;
 }
 
 .primary-transparent-bg {
@@ -111,6 +146,10 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .third-transparent-bg {
   background-color: $third-transparent;
+}
+
+.light-grey-transparent-bg {
+  background-color: $light-grey;
 }
 
 .border-top-bottom-third {

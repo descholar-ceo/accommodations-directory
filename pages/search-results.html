@@ -10,10 +10,10 @@
 <body class="height-100 width-100">
     <header class="padding-y-1 padding-lg-half flex-md-row">
         <nav class="margin-y-1 flex-horizontal-center nav-1 width-100">
-            <div class="flex-horizontal-center bold-text">
+            <a href="../index.html" class="flex-horizontal-center bold-text">
                 <img class="circle-element" src="../assets/img/accommodation-logo.png" alt="Accommodation directory logo">
-                <span class="text-1"><span class="red-text">Accommodation</span><span class="white-text">Directory</span></span>
-            </div>
+                <span class="text-1 white-text bold-text">AccommodationDirectory</span>
+            </a>
         </nav>
         <nav class="margin-y-1 centered-h-v width-100">
             <ul class="flex-space-between width-40 width-lg-90 m-0">
@@ -45,7 +45,7 @@
         </nav>
     </header>
     <main class="main-page width-100 height-100">
-        <section class="third-transparent-bg filter-section width-100 m-0 padding-y-4 centered-h-v">
+        <section class="light-grey-transparent-bg filter-section width-100 m-0 padding-y-4 margin-y-4 centered-h-v">
             <h2 class="centered-text margin-y-1 grey-text text-1">
                 Filter results by name, address(city), number of rooms, ratings:
             </h2>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="width-100 margin-y-1">
                         <label for="city">Address(City):</label>
-                        <select id="city" class="width-100">
+                        <select id="city" class="width-100 white-bg">
                             <option value="default">---click for addresses---</option>
                             <option value="nyc">New York city</option>
                             <option value="kgl">Kigali</option>
@@ -66,7 +66,7 @@
                     </div>
                     <div class="width-100">
                         <label for="rooms">Rooms:</label>
-                        <select id="rooms" class="width-100">
+                        <select id="rooms" class="width-100 white-bg">
                             <option value="default">---number of rooms---</option>
                             <option value="10">10</option>
                             <option value="7">7</option>
@@ -75,7 +75,7 @@
                     </div>
                     <div class="width-100">
                         <label for="ratings">Ratings:</label>
-                        <select id="ratings" class="width-100">
+                        <select id="ratings" class="width-100 white-bg">
                             <option value="default">---by ratings---</option>
                             <option value="1">1</option>
                             <option value="3">3</option>
@@ -86,7 +86,7 @@
                         <label>-</label>
                         <div class="flex-md-row">
                             <a class="button-primary width-100 centered-text white-text bold-text" href="#">Search</a>
-                            <a class="clear-filter-btn button-secondry width-100 centered-text white-text bold-text" href="#">
+                            <a class="clear-filter-btn button-yellow width-100 centered-text white-text bold-text" href="#">
                                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
                                 Clear filter
                             </a>
