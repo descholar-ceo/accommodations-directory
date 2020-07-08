@@ -105,4 +105,23 @@
       width: 100%;
     }
   }
+
+  img[alt="accommodation 5"]{
+    height: 100px;
+    width: 100px;
+  }
+
+  .details-display {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    column-gap: 1rem;
+
+    p {
+      width: 100%;
+    }
+  }
+
+  .book-accom {
+    width: 100%;
+  }
 }
