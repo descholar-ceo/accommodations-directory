@@ -63,4 +63,41 @@
       padding: 0 0.2rem;
     }
   }
+
+  .filter-form {
+    display: grid;
+    grid-template: 1fr / repeat(4, 1fr) 1.5fr;
+    column-gap: 0.3rem;
+    place-items: center;
+    width: 100%;
+
+    label {
+      width: fit-content;
+    }
+
+    a {
+      height: 100%;
+      width: fit-content;
+    }
+
+    .clear-filter-btn {
+      min-width: 116px;
+    }
+  }
+
+  .result-listing {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    column-gap: 0.5rem;
+    row-gap: 0.5rem;
+
+    .result-1,
+    .result-2,
+    .result-3,
+    .result-4,
+    .result-5,
+    .result-6 {
+      width: 100%;
+    }
+  }
 }

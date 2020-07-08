@@ -41,23 +41,32 @@
         </nav>
     </header>
     <main class="main-page width-100 height-100">
-        <section class="third-transparent-bg filter-section width-100 m-0 padding-y-4 centered-h-vt">
+        <section class="third-transparent-bg filter-section width-100 m-0 padding-y-4 centered-h-v">
             <h2 class="centered-text margin-y-1 grey-text text-1">
-                Filter results by name, city, ratings:
+                Filter results by name, address(city), number of rooms, ratings:
             </h2>
             <div class="margin-y-1 width-90 centered-h-v padding-1 rounded-corners-1">
-                <form class="centered-h-v width-60">
+                <form class="centered-h-v width-60 filter-form">
                     <div class="width-100">
-                        <label for="accommodation-name">Accommodation name:</label>
+                        <label for="accommodation-name">Name:</label>
                         <input type="text" class="width-100" id="accommodation-name">
                     </div>
                     <div class="width-100 margin-y-1">
-                        <label for="city">City:</label>
+                        <label for="city">Address(City):</label>
                         <select id="city" class="width-100">
-                            <option value="default">---By city---</option>
+                            <option value="default">---click for addresses---</option>
                             <option value="nyc">New York city</option>
                             <option value="kgl">Kigali</option>
                             <option value="seoul">Seoul</option>
+                        </select>
+                    </div>
+                    <div class="width-100">
+                        <label for="rooms">Rooms:</label>
+                        <select id="rooms" class="width-100">
+                            <option value="default">---number of rooms---</option>
+                            <option value="10">10</option>
+                            <option value="7">7</option>
+                            <option value="5">5</option>
                         </select>
                     </div>
                     <div class="width-100">
@@ -70,39 +79,51 @@
                         </select>
                     </div>
                     <div class="width-100 margin-y-1">
-                        <a class="button-primary width-100 centered-text white-text bold-text" href="#">Search</a>
-                    </div>
-                    <div class="width-100">
-                        <a class="button-secondry width-100 centered-text white-text bold-text" href="#">Clear filter</a>
+                        <label>-</label>
+                        <div class="flex-md-row">
+                            <a class="button-primary width-100 centered-text white-text bold-text" href="#">Search</a>
+                            <a class="clear-filter-btn button-secondry width-100 centered-text white-text bold-text" href="#">
+                                <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                                Clear filter
+                            </a>
+                        </div>
                     </div>
                 </form>
             </div>
         </section>
         <section class="result-section centered-h-v">
-            <h3 class="margin-y-1">Search results found 4 accommodations</h3>
-            <div class="relative-element margin-y-1">
-                <a href="./accommodation-details.html">
-                    <img src="../assets/img/accommodation-4.jpg" alt="accommodation 4"/>
-                    <p class="white-text bold-text text-1-half primary-transparent-bg">Name: Neza Motel</p>
-                </a>
-            </div>
-            <div class="relative-element margin-y-1">
-                <a href="./accommodation-details.html">
-                    <img src="../assets/img/accommodation-5.png" alt="accommodation 4"/>
-                    <p class="white-text bold-text text-1-half primary-transparent-bg">Name: City home</p>
-                </a>
-            </div>
-            <div class="relative-element margin-y-1">
-                <a href="./accommodation-details.html">
-                    <img src="../assets/img/accommodation-6.jpg" alt="accommodation 4"/>
-                    <p class="white-text bold-text text-1-half primary-transparent-bg">Name: xyz lodge</p>
-                </a>
-            </div>
-            <div class="relative-element margin-y-1">
-                <a href="./accommodation-details.html">
-                    <img src="../assets/img/accommodation-7.jpg" alt="accommodation 4"/>
-                    <p class="white-text bold-text text-1-half primary-transparent-bg">Name: Ours yours</p>
-                </a>
+            <h2 class="margin-y-1 centered-text">Search results found 6 accommodations</h2>
+            <div class="centered-h-v result-listing width-90">
+                <div class="centered-h-v relative-element margin-y-1 result-1">
+                    <a href="./accommodation-details.html">
+                        <p class="width-100 padding-1 white-text bold-text text-1-half primary-transparent-bg">Name: Neza Motel</p>
+                    </a>
+                </div>
+                <div class="centered-h-v relative-element margin-y-1 result-2">
+                    <a href="./accommodation-details.html">
+                        <p class="width-100 padding-1 white-text bold-text text-1-half primary-transparent-bg">Name: Cool Sleep</p>
+                    </a>
+                </div>
+                <div class="centered-h-v relative-element margin-y-1 result-3">
+                    <a href="./accommodation-details.html">
+                        <p class="width-100 padding-1 white-text bold-text text-1-half primary-transparent-bg">Name: City Home</p>
+                    </a>
+                </div>
+                <div class="centered-h-v relative-element margin-y-1 result-4">
+                    <a href="./accommodation-details.html">
+                        <p class="width-100 padding-1 white-text bold-text text-1-half primary-transparent-bg">Name: Ours Yours</p>
+                    </a>
+                </div>
+                <div class="centered-h-v relative-element margin-y-1 result-5">
+                    <a href="./accommodation-details.html">
+                        <p class="width-100 padding-1 white-text bold-text text-1-half primary-transparent-bg">Name: City Home</p>
+                    </a>
+                </div>
+                <div class="centered-h-v relative-element margin-y-1 result-6">
+                    <a href="./accommodation-details.html">
+                        <p class="width-100 padding-1 white-text bold-text text-1-half primary-transparent-bg">Name: Ours Yours</p>
+                    </a>
+                </div>
             </div>
         </section>
     </main>

@@ -47,17 +47,36 @@ select {
   border: none;
 }
 
-.result-section {
-  div {
-    height: fit-content;
-  }
+// results
+@mixin bg-specs {
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
 
-  p {
-    position: absolute;
-    top: 8rem;
-    left: 3rem;
-    padding: 0.3rem;
-  }
+.result-1 {
+  background: url("../../img/accommodation-1.jpg") center center no-repeat;
+  @include bg-specs();
+}
+.result-2 {
+  background: url("../../img/accommodation-2.jpg") center center no-repeat;
+  @include bg-specs();
+}
+.result-3 {
+  background: url("../../img/accommodation-4.jpg") center center no-repeat;
+  @include bg-specs();
+}
+.result-4 {
+  background: url("../../img/accommodation-5.png") center center no-repeat;
+  @include bg-specs();
+}
+.result-5 {
+  background: url("../../img/accommodation-6.jpg") center center no-repeat;
+  @include bg-specs();
+}
+.result-6 {
+  background: url("../../img/accommodation-7.jpg") center center no-repeat;
+  @include bg-specs();
 }
 
 @import 'utilities';
