@@ -76,6 +76,7 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-primary {
   @extend %button;
+
   background-color: $primary-color;
 }
 
@@ -93,21 +94,25 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .button-blue {
   @extend %button;
+
   background-color: $blue-color;
 }
 
 .button-white {
   @extend %button;
+
   background-color: $white-color;
 }
 
 .button-yellow {
   @extend %button;
+
   background-color: $yellow-color;
 }
 
 .button-white-transparent {
   @extend %button;
+
   background-color: $white-trasparent;
 }
 
