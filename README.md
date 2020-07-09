@@ -2,7 +2,7 @@
 ![Linters](https://github.com/descholar-ceo/accommodations-directory/workflows/Linters/badge.svg?branch=create-accommodations-directory)
 
 ## Description
-This project was done for learning purpose, the aim was to create a customized content but same design of [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE) by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) in order to master the HTML5 and CSS3 for UI/UX, and responsiveness. This project is a capstone from [Microverse](https://www.microverse.org/)
+This project was done for learning purpose, the aim was to create a customized content but same design of [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE) by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) in order to master the HTML5 and CSS3 / SASS for UI/UX, and responsiveness. This project is a capstone from [Microverse](https://www.microverse.org/)
 
 ### Screenshots from browser
 
@@ -12,7 +12,7 @@ This project was done for learning purpose, the aim was to create a customized c
 
 ## Built with 
 1. HTML5 
-1. CSS3 / SASS
+1. SASS
 
 ## Live Demo
 1. [See it on netlify](https://bit.ly/accommodations-directory)
@@ -55,7 +55,7 @@ There two ways of contributing to this project:
     1. Create a separate branch off the *master barnch*,
     1. Write your codes which fix the issue you found
     1. Commit and push the branch you created
-    1. Raise a pull request, comparing your new created branch with our original master branch [here](https://github.com/descholar-ceo/accommodations-directory/)
+    1. Open a pull request, comparing your new created branch with our original master branch [here](https://github.com/descholar-ceo/accommodations-directory/)
 
 ## Show your support 
 Give a ⭐️ if you like this project!
