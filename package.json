@@ -7,8 +7,8 @@
   "license": "MIT",
   "dependencies": {},
   "scripts": {
-    "stylelint": "npx stylelint **/*.{css,scss}",
-    "stylelint-fix": "npx stylelint **/*.{css,scss} --fix",
+    "stylelint": "npx stylelint **/*.scss",
+    "stylelint-fix": "npx stylelint **/*.scss --fix",
     "hint": "npx hint ."
   },
   "devDependencies": {
