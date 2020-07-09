@@ -12,8 +12,7 @@ This project was done for learning purpose, the aim was to create a customized c
 
 ## Built with 
 1. HTML5 
-1. CSS3
-1. Bootstrap V5
+1. CSS3 / SASS
 
 ## Live Demo
 1. [See it on netlify](https://bit.ly/accommodations-directory)
