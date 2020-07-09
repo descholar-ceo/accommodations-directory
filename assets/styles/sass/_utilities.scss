@@ -157,6 +157,10 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
   background-color: $light-grey;
 }
 
+.greyish-bg {
+  background-color: $greyish-color;
+}
+
 .border-top-bottom-third {
   border-top: 1px solid $third-color;
   border-bottom: 1px solid $third-color;
@@ -164,6 +168,10 @@ $spaceAmount: (0, 1, 2, 3, 4, 5);
 
 .border-full {
   border: 1px solid $third-color;
+}
+
+.border-greyish-full {
+  border: 1px solid $greyish-color;
 }
 
 .rounded-corners-1 {

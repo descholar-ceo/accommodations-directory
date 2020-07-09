@@ -24,8 +24,8 @@ header {
 }
 
 img[alt="Accommodation directory logo"] {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 
 img[alt="Accommodation 1"],
@@ -88,6 +88,10 @@ select {
   background: url("../../img/accommodation-7.jpg") center center no-repeat;
 
   @include bg-specs();
+}
+
+.accommodation-details {
+  box-shadow: 4px 4px 8px 8px $black-transparent;
 }
 
 @import 'utilities';
