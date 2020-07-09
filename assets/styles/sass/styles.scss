@@ -1,0 +1,95 @@
+@import 'variables';
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img[alt="Accommodation directory logo"] {
+  width: 70px;
+  height: 70px;
+}
+
+img[alt="Accommodation 1"],
+img[alt="accommodation 4"] {
+  width: 300px;
+  height: 300px;
+}
+
+.search-section {
+  background: linear-gradient(to bottom right, $primary-transparent, $secondary-transparent, $black-transparent, $third-transparent), url("../../img/accommodation-0.svg") center center no-repeat;
+  background-size: cover;
+}
+
+input,
+select {
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+}
+
+// results
+@mixin bg-specs {
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+}
+
+.result-1 {
+  background: url("../../img/accommodation-1.jpg") center center no-repeat;
+
+  @include bg-specs();
+}
+
+.result-2 {
+  background: url("../../img/accommodation-2.jpg") center center no-repeat;
+
+  @include bg-specs();
+}
+
+.result-3 {
+  background: url("../../img/accommodation-4.jpg") center center no-repeat;
+
+  @include bg-specs();
+}
+
+.result-4 {
+  background: url("../../img/accommodation-5.png") center center no-repeat;
+
+  @include bg-specs();
+}
+
+.result-5 {
+  background: url("../../img/accommodation-6.jpg") center center no-repeat;
+
+  @include bg-specs();
+}
+
+.result-6 {
+  background: url("../../img/accommodation-7.jpg") center center no-repeat;
+
+  @include bg-specs();
+}
+
+.accommodation-details {
+  box-shadow: 4px 4px 8px 8px $black-transparent;
+}
+
+@import 'utilities';
+@import 'texts';
+@import 'widths-heights';
+@import 'media-queries'
