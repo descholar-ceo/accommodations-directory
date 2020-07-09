@@ -19,10 +19,6 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  background-color: $primary-color;
-}
-
 img[alt="Accommodation directory logo"] {
   width: 70px;
   height: 70px;
@@ -37,7 +33,6 @@ img[alt="accommodation 4"] {
 .search-section {
   background: linear-gradient(to bottom right, $primary-transparent, $secondary-transparent, $black-transparent, $third-transparent), url("../../img/accommodation-0.svg") center center no-repeat;
   background-size: cover;
-  height: 100%;
 }
 
 input,
