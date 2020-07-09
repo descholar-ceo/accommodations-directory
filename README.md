@@ -18,6 +18,9 @@ This project was done for learning purpose, the aim was to create a customized c
 1. [See it on netlify](https://bit.ly/accommodations-directory)
 1. [See it on githack](https://bit.ly/accommodations-directory-githack)
 
+## Project presentation in a video
+1. [See the presentation on loom](https://www.loom.com/share/7e76cfb6f6dc446485b66c12629bba1f)
+
 ## Getting Started
 To get a local copy up and running follow the following simple steps.
 
