@@ -24,8 +24,8 @@ This project was done for learning purpose, the aim was to create a customized c
 ## Getting Started
 To get a local copy up and running follow the following simple steps.
 
-### A. Prequisite 
-There is no special prequisite to run this project locally
+### A. Pre-requisite 
+There is no special pre-requisite to run this project locally
 
 ### B. Setup
 1. Clone this repository with `git clone https://github.com/descholar-ceo/accommodations-directory.git`
