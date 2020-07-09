@@ -14,7 +14,7 @@
       width: 60%;
     }
 
-    a {
+    button {
       width: fit-content;
       display: grid;
       place-items: center;
@@ -119,6 +119,10 @@
 @media screen and (min-width: 1024px) {
   .hidden-md-sm {
     display: inline-block;
+  }
+
+  text-1 {
+    font-size: 1.5rem;
   }
 
   .padding-lg-half {
