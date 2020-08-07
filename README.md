@@ -45,7 +45,7 @@ This project is deployed on netlify pages [live demo link](https://bit.ly/accomm
 ### 1. MUGIRASE Emmanuel
 * Github: [@descholar-ceo](https://github.com/descholar-ceo)
 * Twitter: [@descholar3](https://twitter.com/descholar3)
-* LinkedIn: [MUGIRASE Emmanuel](linkedin.com/in/mugirase-emmanuel-a90b49143)
+* LinkedIn: [MUGIRASE Emmanuel](https://www.linkedin.com/in/mugirase-emmanuel-a90b49143)
 
 ## Contributing
 There two ways of contributing to this project:
@@ -64,6 +64,6 @@ There two ways of contributing to this project:
 Give a ⭐️ if you like this project!
 
 ## Acknowledgment
-* [Microverse](https://microvese.org)
+* [Microverse](https://www.microvese.org)
 
 * [Mathew Njuguna](https://www.behance.net/mathewnjuguna) for the design idea
