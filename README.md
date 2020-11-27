@@ -2,9 +2,13 @@
 ![Linters](https://github.com/descholar-ceo/accommodations-directory/workflows/Linters/badge.svg?branch=create-accommodations-directory)
 
 ## Description
-AccommodationDirectory is a web application which helps to find any accommodation you wish depending on the location. You can search with the keyword of your choice or you can see which ones are already available.
+AccommodationDirectory is a web application that helps to find any accommodation you wish depending on the location. You can search with the keyword of your choice or you can see which ones are already available.
 
 This project was done for learning purpose, the aim was to create a customized content but same design of [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE) by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) in order to master the HTML5 and CSS3 / SASS for UI/UX, and responsiveness. This project is my capstone from [Microverse](https://www.microverse.org/) after completing HTML/CSS curriculum.
+
+
+
+This project was done for learning purpose, the aim was to create a customized content but the same design of Patashule by Mathew Njuguna to master the HTML5 and CSS3 / SASS for UI/UX, and responsiveness. This project is my capstone from Microverse after completing the HTML/CSS curriculum.
 
 ### Screenshots from browser
 
