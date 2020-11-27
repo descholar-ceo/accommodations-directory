@@ -6,7 +6,7 @@ AccommodationDirectory is a web application that helps to find any accommodation
 
 I did it for learning purpose, the aim was to create a customized content but the same design of [Patashule](https://www.behance.net/gallery/25563385/PatashuleKE) by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) to master the HTML5 and CSS3 / SASS for UI/UX and responsiveness. This project is my capstone from [Microverse](https://www.microverse.org/) after completing HTML/CSS curriculum.
 
-_Note: The result of this project is only a page design. It is not functional yet. It just shows the looking of the real page._ 
+_Note: The result of this project is only a page design. It is not functional yet. It just shows the looking of the real website._ 
 
 ### Screenshots from browser
 
